@@ -170,18 +170,18 @@ void Intro() { // рисуем корабль белым, а звезду кра
     PlaySound(TEXT("INTRO.wav"), NULL, SND_ASYNC); // проигрыш музыкальной заставки
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
     cout << "\n";
-    cout << "                          r                                                         WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW\n";
-    cout << "                     ..  iB@X                                                      W                                  W\n";
-    cout << "                     .277r;7@0                                                     W                         ШШШШШШШ  W\n";
-    cout << "                      a@@B07aB@B@                                                  W                  Ш      Ш        W\n";
-    cout << "                         r@@B@B@B                                                  W                 Ш Ш     Ш        W\n";
-    cout << "                          X@  B                                                    W           Ш    Ш   Ш    Ш        W\n";
-    cout << "                          aB  @7                                                   W       Ш   Ш   Ш     Ш   Ш        W\n";
-    cout << "                      77ii70r.8B                                .i                 W   Ш   Ш   Ш   ШШШШШШШ   Ш        W\n";
-    cout << "                      7277r:7rWB2                            .r:XB2                W   Ш   Ш   Ш  Ш       Ш  Ш        W\n";
-    cout << "               i7iii:.i7rrrri:r@B@@:                       :i7a@B2                 W   ШШШШШШШШШ  Ш       Ш  Ш        W\n";
-    cout << "               .2777777rrrrrri:7@B@@                    .ir7MB@r    ..7Br          W                                  W\n";
-    cout << "               .2777r7r7rrrrrr:iB@M@B.                .ir7B@M.    :70@BX            WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW\n";
+    cout << "                          r                                                         \n";
+    cout << "                     ..  iB@X                                                                                     \n";
+    cout << "                     .277r;7@0                                                     \n";
+    cout << "                      a@@B07aB@B@                                                                        \n";
+    cout << "                         r@@B@B@B                                                  \n";
+    cout << "                          X@  B                                                    \n";
+    cout << "                          aB  @7                                                  \n";
+    cout << "                      77ii70r.8B                                .i                 \n";
+    cout << "                      7277r:7rWB2                            .r:XB2               \n";
+    cout << "               i7iii:.i7rrrri:r@B@@:                       :i7a@B2                \n";
+    cout << "               .2777777rrrrrri:7@B@@                    .ir7MB@r    ..7Br                                           \n";
+    cout << "               .2777r7r7rrrrrr:iB@M@B.                .ir7B@M.    :70@BX           \n";
     cout << "               :7727777r7rrrrri.MBMM@BW.            :i70@Ba    .r2@@@r    :7@.\n";
     cout << "                   :i777rrrri;:.2@MMM@B@Br        :72MB@i    i7MB@2    .7MM8i          .....::iiir;rr777r7r7rriii:7:.\n";
     cout << "                       .7ii::.irXBM8MMB@@B2     :rSB@2    .7WB@S    :7ZBM7.  .:i77772722277777777777777777777777i7@B@B.\n";
@@ -255,7 +255,7 @@ void Intro() { // рисуем корабль белым, а звезду кра
     cout << "  r77rrrrrrrrrrii.0@@r:iriiirir;r;ririri;iiiiii:i:i:::... ......:.::::::iii;rr77772222XaX08M@.\n";
     cout << "  27rrrr;riririri:.S2i:i:i::::::::::.:.::::::i:ii;;rr77772222XX0ZM8BM@B@@@@@B@B@B@B@B@B@B@B@7\n";
     cout << " .7ii:::i::::::::::.::rrr7772722SSXX88MM@B@B@B@@@@@B@B@B@@@@@@@@@B@@@B@B@@@@@@@@@@@B@B@B@B@8\n";
-    cout << "\n\t\t\t\t\t\tАВТОРЫ: Алексей Степанов, Владислав Клименков, Максим Родионов © 2021\n\n";
+    cout << "\n\t\t\t\t\t\t\t\t\tCreator:Максим Родионов © 2021\n\n";
     for (int i = 0; i < 11; i++) {
         Sleep(1000);
         if (i == 8) {
