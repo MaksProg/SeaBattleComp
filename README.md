@@ -1,0 +1,2 @@
+# SeaBattleComp
+ Project for competition
